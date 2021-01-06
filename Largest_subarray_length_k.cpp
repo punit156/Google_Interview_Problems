@@ -104,4 +104,5 @@ int main()
     {
         answer(ret, ret + k, A);
     }
+    return 0;
 }
