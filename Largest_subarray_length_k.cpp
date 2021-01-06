@@ -93,7 +93,7 @@ int main()
         if(it->second.size() == 1)
         {
             /* whenever we find solution, we have to subtract (i) from
-            current index to find the starting point of subarray. */
+            current index to find the starting point of subarray.  */
 
             answer(it->second[0] - i, it->second[0] - i + k, A);
             return 0;
